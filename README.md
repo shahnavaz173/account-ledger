@@ -3,9 +3,10 @@
 
 Account ledger for mosque to manage Expenses and Income
 
-
-# Build jar file
+<br />
+Build jar file:<br />
 mvn clean install
 
-# Create Installer
+
+Create Installer:<br />
 jpackage --type exe --input target --dest target --main-jar NoorAccount.jar --main-class org.noor.account.App --name "NoorAccount" --win-dir-chooser --icon .\mosque.ico --win-menu
